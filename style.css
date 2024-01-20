@@ -1,0 +1,131 @@
+*{
+    font-family: 'Inter', sans-serif;
+    width: auto;
+    height: auto;
+}
+
+#menusuperior{
+    background-color: #303030;
+    margin-right: 40;
+    width: 1320px;
+    height: 425px;
+    padding-top: 60px;
+}
+
+#titulomenusuperior{
+    font-size: 40px;
+    width: 800px;
+    height: 72px;
+    margin-top: 180px;
+    margin-left: 40px;
+    margin-right: 40;
+    line-height: 50px;
+    color: #FFFFFF;
+
+}
+
+#sub_titulo {
+    margin-top: 28px;
+    margin-left: 40px;
+    margin-right: 40;
+    width: 800px;
+    height: 28px;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+#menu-informacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px;
+    
+}
+
+.bolder{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.text{
+    margin-left: 60px;
+}
+
+#secaoinformativa {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+
+#textoinformativo {
+    margin-top: 250px;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 20px;
+    
+}
+
+#textoinformativo::first-line{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#imagemprojeto {
+    width: 510px;
+    height: 605px;
+    padding: 35px;
+    border-radius: 30px;
+
+}
+
+#menucaptura{
+    background-color: #303030;
+    text-align: center;
+    margin-right: 40;
+    width: 1320px;
+    height: 375px;
+    padding-top: 100px;
+    grid-auto-flow: center;
+}
+
+#titulo-captura{
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+input{
+    Width: 350px;
+    Height: 40px;
+    margin: 20px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: #000000;
+
+}
+
+button{
+    background-color: #C07212;
+    width: 195px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    border: 0px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f58a07c9;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #f58a073d;
+    transition-duration: 0.5s;
+}
